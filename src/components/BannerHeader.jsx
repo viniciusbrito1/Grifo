@@ -15,8 +15,8 @@ export default function BannerHeader(){
                     src="/images/mascote.png"
                     width={0}
                     height={0}
-                    sizes="270px"
-                    style={{ width: '90%', height: '90%' }}
+                    sizes="(max-width: 600px) 15vw , 7vw"
+                    style={{ width: '100%', height: '100%' }}
                 />
             </divImagem>
                 
@@ -42,13 +42,15 @@ export default function BannerHeader(){
                     top: 0;
                     position: sticky;
                     z-index: 2;
-                    height: 100px;
+                    height: fit-content;
                     background-color: black;
                     display: flex;
                     flex-direction: row;
                     justify-content: space-between;
-                    padding-left: 1%;
+                    padding-left: 1vw;
                     padding-right: 3vw;
+                    padding: 0.4vw;
+                    align-items: center;
                 }
                 divImagem{
                     display: flex;
