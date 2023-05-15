@@ -42,7 +42,7 @@ export default function BannerHeader(){
                     top: 0;
                     position: sticky;
                     z-index: 2;
-                    height: 120px;
+                    height: 100px;
                     background-color: black;
                     display: flex;
                     flex-direction: row;
