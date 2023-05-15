@@ -8,7 +8,7 @@ export default function BannerEventos(props, {children}){
                 src={props.img}
                 width={0}
                 height={0}
-                sizes="(max-width: 768px) 80vw, 50vw"
+                sizes="(max-width: 768px) 90vw, 50vw"
                 style={{ width: 'auto', height: 'auto' }}
             />
             </divImagem>
@@ -54,16 +54,20 @@ export default function BannerEventos(props, {children}){
                 @media screen and (max-width: 768px) {
                     divBanner{
                         flex-direction: column;
+                        padding: 5%;
+                        gap: 2vw;
                     }
                     divTexto{
-                        width: 100%;
+                        width: 90vw;
+                        gap: 2vw;
                     }
                     titulo{
+                        text-align: center;
                         font-size: 8vw;
                         font-family: Graduate;
                     }
                     descricao{
-                        font-size: 2vw;
+                        font-size: 3.5vw;
                     }
                 }
             `}</style>
