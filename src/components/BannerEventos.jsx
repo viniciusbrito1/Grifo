@@ -4,14 +4,15 @@ import Link from "next/link"
 export default function BannerEventos(props){
     let linkDecoration={
         textDecoration: 'none',
-        color: 'black',
+        color: props.fontColor,
         height: 'fit-content',
         width: 'fit-content',
         backgroundColor: '#E8CA00',
         padding: '1.7%',
         borderRadius: '20px',
         textTransform: 'uppercase',
-        fontWeight: '600'
+        fontWeight: '600',
+        textShadow: '2px 2px 4px gray'
     }
     return (
         <divBanner style={{margin: 0}}>
@@ -64,11 +65,12 @@ export default function BannerEventos(props){
                     font-size: 5vw;
                     text-transform: uppercase;
                     letter-spacing: 2px;
-                    text-shadow: 2px 2px 4px black;
+                    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
                     font-weight: 800;
                 }
                 descricao{
                     font-size: 1.2vw;
+                    padding-bottom: 1.2vw;
                 }
                 linkavel{
                     font-size: 1vw;
@@ -81,18 +83,20 @@ export default function BannerEventos(props){
                     }
                     divTexto{
                         width: 90vw;
-                        gap: 4vw;
                     }
                     titulo{
+                        text-shadow: 0px 0px 0px;
                         text-align: center;
                         font-size: 8vw;
                     }
                     descricao{
                         font-size: 3.5vw;
+                        padding-bottom: 6vw;
                     }
                     linkavel{
                         text-align: center;
-                        font-size: 3.5vw;
+                        font-size: 2vw;
+                        padding-bottom: 2vw;
                     }
                 }
             `}</style>
