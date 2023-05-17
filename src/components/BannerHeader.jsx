@@ -15,16 +15,16 @@ export default function BannerHeader(){
                     src="/images/mascote.png"
                     width={0}
                     height={0}
-                    sizes="(max-width: 600px) 15vw , 7vw"
+                    sizes="(max-width: 600px) 15vw , 6.5vw"
                     style={{ width: '100%', height: '100%' }}
                 />
             </divImagem>
                 
             <divLinks>
-                <Link href={"/index.js"} style={linkDecoration}>Home</Link>
-                <Link href={"/index.js"} style={linkDecoration}>Eventos</Link>
+                <Link href={"/"} style={linkDecoration}>Home</Link>
+                <Link href={"/"} style={linkDecoration}>Eventos</Link>
                 <Link href={"/index.js"} style={linkDecoration}>Lojinha</Link>
-                <Link href={"/index.js"} style={linkDecoration}>Parcerias</Link>
+                <Link href={"/parcerias"} style={linkDecoration}>Parcerias</Link>
                 <Link href={"https://www.instagram.com/grifoime/"} >
                     <>
                     <Image
@@ -47,12 +47,12 @@ export default function BannerHeader(){
                     display: flex;
                     flex-direction: row;
                     justify-content: space-between;
-                    padding-left: 1vw;
-                    padding-right: 3vw;
                     padding: 0.4vw;
                     align-items: center;
+                    opacity: 0.95;
                 }
                 divImagem{
+                    padding-left: 2vw;
                     display: flex;
                     flex-direction: row;
                     align-items: center;

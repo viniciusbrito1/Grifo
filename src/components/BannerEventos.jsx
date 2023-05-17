@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function BannerEventos(props){
     let linkDecoration={
         textDecoration: 'none',
-        color: props.fontColor,
+        color: 'white',
         height: 'fit-content',
         width: 'fit-content',
         backgroundColor: '#E8CA00',
@@ -12,7 +12,7 @@ export default function BannerEventos(props){
         borderRadius: '20px',
         textTransform: 'uppercase',
         fontWeight: '600',
-        textShadow: '2px 2px 4px gray'
+        textShadow: '2px 2px 4px black'
     }
     return (
         <divBanner style={{margin: 0}}>
@@ -95,7 +95,7 @@ export default function BannerEventos(props){
                     }
                     linkavel{
                         text-align: center;
-                        font-size: 2vw;
+                        font-size: 3vw;
                         padding-bottom: 2vw;
                     }
                 }
