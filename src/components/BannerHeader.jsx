@@ -22,7 +22,7 @@ export default function BannerHeader(){
                 
             <divLinks>
                 <Link href={"/"} style={linkDecoration}>Home</Link>
-                <Link href={"/"} style={linkDecoration}>Eventos</Link>
+                <Link href={"/eventos"} style={linkDecoration}>Eventos</Link>
                 <Link href={"/index.js"} style={linkDecoration}>Lojinha</Link>
                 <Link href={"/parcerias"} style={linkDecoration}>Parcerias</Link>
                 <Link href={"https://www.instagram.com/grifoime/"} >
@@ -49,15 +49,16 @@ export default function BannerHeader(){
                     justify-content: space-between;
                     padding: 0.4vw;
                     align-items: center;
-                    opacity: 0.95;
+                    /*opacity: 0.95;*/
                 }
                 divImagem{
-                    padding-left: 2vw;
+                    padding-left: 9vw;
                     display: flex;
                     flex-direction: row;
                     align-items: center;
                 }
                 divLinks{
+                    padding-right: 9vw;
                     color: white;
                     align-items: center;
                     display: flex;

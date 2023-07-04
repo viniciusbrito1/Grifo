@@ -1,5 +1,5 @@
-import BannerEventos from '@/src/components/BannerEventos'
 import BannerHeader from '@/src/components/BannerHeader'
+import BannerEventos from '@/src/components/BannerEventos'
 
 export default function Home() {
   return (
@@ -26,6 +26,7 @@ export default function Home() {
         titulo="PAPIRO ZERO"
         descricao="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas malesuada, tellus quis laoreet dapibus, orci augue aliquam dui, non fringilla dui velit eu velit. Praesent sed imperdiet dolor, porttitor pretium erat. Curabitur orci diam, fringilla vel velit in, porta bibendum est. Nunc varius blandit eros a auctor. Donec at sapien quis turpis egestas dapibus at aliquet neque. Nulla sed placerat enim. Aliquam tempus euismod interdum."
       />
+
     </div>
   )
 }

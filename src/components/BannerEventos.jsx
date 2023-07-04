@@ -7,8 +7,10 @@ export default function BannerEventos(props){
         color: 'white',
         height: 'fit-content',
         width: 'fit-content',
-        backgroundColor: '#E8CA00',
+        backgroundColor: '#700909',
         padding: '1.7%',
+        paddingLeft: '3%',
+        paddingRight: '3%',
         borderRadius: '20px',
         textTransform: 'uppercase',
         fontWeight: '600',
@@ -30,7 +32,7 @@ export default function BannerEventos(props){
                 <titulo>{props.titulo}</titulo>
                 <descricao>{props.descricao}</descricao>
                 <linkavel>
-                    <Link href="/" style={linkDecoration}>confira as fotos do último evento</Link>
+                    <Link href="/" style={linkDecoration}>fotos do último evento</Link>
                 </linkavel>
             </divTexto>
 
