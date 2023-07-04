@@ -14,7 +14,8 @@ export default function BannerEventos(props){
         borderRadius: '20px',
         textTransform: 'uppercase',
         fontWeight: '600',
-        textShadow: '2px 2px 4px black'
+        textShadow: '2px 2px 4px black',
+        fontSize: '1.25vw'
     }
     return (
         <divBanner style={{margin: 0}}>
